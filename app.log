@@ -91,3 +91,95 @@
 2025-04-06 00:48:24,392 - INFO - Get LATEST chromedriver version for google-chrome
 2025-04-06 00:48:24,562 - INFO - Get LATEST chromedriver version for google-chrome
 2025-04-06 00:48:24,720 - INFO - Driver [C:\Users\mucin\.wdm\drivers\chromedriver\win64\134.0.6998.165\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-06 00:50:18,260 - INFO - ====== WebDriver manager ======
+2025-04-06 00:50:19,191 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-06 00:50:19,386 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-06 00:50:19,540 - INFO - Driver [C:\Users\mucin\.wdm\drivers\chromedriver\win64\134.0.6998.165\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-06 01:07:16,906 - INFO - ====== WebDriver manager ======
+2025-04-06 01:07:17,805 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-06 01:07:18,003 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-06 01:07:18,170 - INFO - Driver [C:\Users\mucin\.wdm\drivers\chromedriver\win64\134.0.6998.165\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-06 01:07:37,647 - INFO - HTTP Request: POST https://api.telegram.org/bot8020956192:AAFXZl4p1MD5kmEBU0ceGlSd_hRQpdz9Q0U/sendMessage "HTTP/1.1 200 OK"
+2025-04-06 01:07:38,093 - INFO - HTTP Request: POST https://api.telegram.org/bot8020956192:AAFXZl4p1MD5kmEBU0ceGlSd_hRQpdz9Q0U/sendMessage "HTTP/1.1 200 OK"
+2025-04-06 01:07:38,094 - INFO - \u2705 \u0110ã g\u1eedi thông báo Telegram!
+2025-04-06 01:08:14,853 - INFO - ====== WebDriver manager ======
+2025-04-06 01:08:15,937 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-06 01:08:16,123 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-06 01:08:16,320 - INFO - Driver [C:\Users\mucin\.wdm\drivers\chromedriver\win64\134.0.6998.165\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-06 01:08:51,160 - INFO - HTTP Request: POST https://api.telegram.org/bot8020956192:AAFXZl4p1MD5kmEBU0ceGlSd_hRQpdz9Q0U/sendMessage "HTTP/1.1 200 OK"
+2025-04-06 01:08:51,615 - INFO - HTTP Request: POST https://api.telegram.org/bot8020956192:AAFXZl4p1MD5kmEBU0ceGlSd_hRQpdz9Q0U/sendMessage "HTTP/1.1 200 OK"
+2025-04-06 01:08:51,615 - INFO - \u2705 \u0110ã g\u1eedi thông báo Telegram!
+2025-04-06 01:11:36,968 - INFO - ====== WebDriver manager ======
+2025-04-06 01:11:37,906 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-06 01:11:38,093 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-06 01:11:38,261 - INFO - Driver [C:\Users\mucin\.wdm\drivers\chromedriver\win64\134.0.6998.165\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-06 01:12:50,734 - INFO - ====== WebDriver manager ======
+2025-04-06 01:12:52,080 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-06 01:12:52,255 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-06 01:12:52,449 - INFO - Driver [C:\Users\mucin\.wdm\drivers\chromedriver\win64\134.0.6998.165\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-06 01:13:23,427 - INFO - ====== WebDriver manager ======
+2025-04-06 01:13:24,299 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-06 01:13:24,470 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-06 01:13:24,645 - INFO - Driver [C:\Users\mucin\.wdm\drivers\chromedriver\win64\134.0.6998.165\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-06 01:13:44,011 - INFO - HTTP Request: POST https://api.telegram.org/bot8020956192:AAFXZl4p1MD5kmEBU0ceGlSd_hRQpdz9Q0U/sendMessage "HTTP/1.1 200 OK"
+2025-04-06 01:13:44,451 - INFO - HTTP Request: POST https://api.telegram.org/bot8020956192:AAFXZl4p1MD5kmEBU0ceGlSd_hRQpdz9Q0U/sendMessage "HTTP/1.1 200 OK"
+2025-04-06 01:13:44,452 - INFO - \u2705 \u0110ã g\u1eedi thông báo Telegram!
+2025-04-06 01:15:24,220 - INFO - ====== WebDriver manager ======
+2025-04-06 01:15:25,363 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-06 01:15:25,528 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-06 01:15:25,680 - INFO - Driver [C:\Users\mucin\.wdm\drivers\chromedriver\win64\134.0.6998.165\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-06 01:16:01,378 - INFO - HTTP Request: POST https://api.telegram.org/bot8020956192:AAFXZl4p1MD5kmEBU0ceGlSd_hRQpdz9Q0U/sendMessage "HTTP/1.1 200 OK"
+2025-04-06 01:16:01,848 - INFO - HTTP Request: POST https://api.telegram.org/bot8020956192:AAFXZl4p1MD5kmEBU0ceGlSd_hRQpdz9Q0U/sendMessage "HTTP/1.1 200 OK"
+2025-04-06 01:16:01,850 - INFO - \u2705 \u0110ã g\u1eedi thông báo Telegram!
+2025-04-06 01:16:19,210 - INFO - HTTP Request: POST https://api.telegram.org/bot8020956192:AAFXZl4p1MD5kmEBU0ceGlSd_hRQpdz9Q0U/sendMessage "HTTP/1.1 200 OK"
+2025-04-06 01:16:19,680 - INFO - HTTP Request: POST https://api.telegram.org/bot8020956192:AAFXZl4p1MD5kmEBU0ceGlSd_hRQpdz9Q0U/sendMessage "HTTP/1.1 200 OK"
+2025-04-06 01:16:19,681 - INFO - \u2705 \u0110ã g\u1eedi thông báo Telegram!
+2025-04-06 01:16:53,444 - INFO - HTTP Request: POST https://api.telegram.org/bot8020956192:AAFXZl4p1MD5kmEBU0ceGlSd_hRQpdz9Q0U/sendMessage "HTTP/1.1 200 OK"
+2025-04-06 01:16:53,905 - INFO - HTTP Request: POST https://api.telegram.org/bot8020956192:AAFXZl4p1MD5kmEBU0ceGlSd_hRQpdz9Q0U/sendMessage "HTTP/1.1 200 OK"
+2025-04-06 01:16:53,906 - INFO - \u2705 \u0110ã g\u1eedi thông báo Telegram!
+2025-04-06 01:18:06,667 - INFO - ====== WebDriver manager ======
+2025-04-06 01:18:07,723 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-06 01:18:07,898 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-06 01:18:08,115 - INFO - Driver [C:\Users\mucin\.wdm\drivers\chromedriver\win64\134.0.6998.165\chromedriver-win32/chromedriver.exe] found in cache
+2025-04-06 01:18:27,946 - INFO - HTTP Request: POST https://api.telegram.org/bot8020956192:AAFXZl4p1MD5kmEBU0ceGlSd_hRQpdz9Q0U/sendMessage "HTTP/1.1 200 OK"
+2025-04-06 01:18:28,401 - INFO - HTTP Request: POST https://api.telegram.org/bot8020956192:AAFXZl4p1MD5kmEBU0ceGlSd_hRQpdz9Q0U/sendMessage "HTTP/1.1 200 OK"
+2025-04-06 01:18:28,404 - INFO - \u2705 \u0110ã g\u1eedi thông báo Telegram!
+2025-04-06 01:18:46,007 - INFO - HTTP Request: POST https://api.telegram.org/bot8020956192:AAFXZl4p1MD5kmEBU0ceGlSd_hRQpdz9Q0U/sendMessage "HTTP/1.1 200 OK"
+2025-04-06 01:18:46,532 - INFO - HTTP Request: POST https://api.telegram.org/bot8020956192:AAFXZl4p1MD5kmEBU0ceGlSd_hRQpdz9Q0U/sendMessage "HTTP/1.1 200 OK"
+2025-04-06 01:18:46,532 - INFO - \u2705 \u0110ã g\u1eedi thông báo Telegram!
+2025-04-06 01:19:04,112 - INFO - HTTP Request: POST https://api.telegram.org/bot8020956192:AAFXZl4p1MD5kmEBU0ceGlSd_hRQpdz9Q0U/sendMessage "HTTP/1.1 200 OK"
+2025-04-06 01:19:04,558 - INFO - HTTP Request: POST https://api.telegram.org/bot8020956192:AAFXZl4p1MD5kmEBU0ceGlSd_hRQpdz9Q0U/sendMessage "HTTP/1.1 200 OK"
+2025-04-06 01:19:04,558 - INFO - \u2705 \u0110ã g\u1eedi thông báo Telegram!
+2025-04-06 01:19:38,489 - INFO - HTTP Request: POST https://api.telegram.org/bot8020956192:AAFXZl4p1MD5kmEBU0ceGlSd_hRQpdz9Q0U/sendMessage "HTTP/1.1 200 OK"
+2025-04-06 01:19:38,941 - INFO - HTTP Request: POST https://api.telegram.org/bot8020956192:AAFXZl4p1MD5kmEBU0ceGlSd_hRQpdz9Q0U/sendMessage "HTTP/1.1 200 OK"
+2025-04-06 01:19:38,943 - INFO - \u2705 \u0110ã g\u1eedi thông báo Telegram!
+2025-04-06 01:19:56,464 - INFO - HTTP Request: POST https://api.telegram.org/bot8020956192:AAFXZl4p1MD5kmEBU0ceGlSd_hRQpdz9Q0U/sendMessage "HTTP/1.1 200 OK"
+2025-04-06 01:19:56,927 - INFO - HTTP Request: POST https://api.telegram.org/bot8020956192:AAFXZl4p1MD5kmEBU0ceGlSd_hRQpdz9Q0U/sendMessage "HTTP/1.1 200 OK"
+2025-04-06 01:19:56,929 - INFO - \u2705 \u0110ã g\u1eedi thông báo Telegram!
+2025-04-06 01:20:14,414 - INFO - HTTP Request: POST https://api.telegram.org/bot8020956192:AAFXZl4p1MD5kmEBU0ceGlSd_hRQpdz9Q0U/sendMessage "HTTP/1.1 200 OK"
+2025-04-06 01:20:14,842 - INFO - HTTP Request: POST https://api.telegram.org/bot8020956192:AAFXZl4p1MD5kmEBU0ceGlSd_hRQpdz9Q0U/sendMessage "HTTP/1.1 200 OK"
+2025-04-06 01:20:14,842 - INFO - \u2705 \u0110ã g\u1eedi thông báo Telegram!
+2025-04-06 01:20:32,352 - INFO - HTTP Request: POST https://api.telegram.org/bot8020956192:AAFXZl4p1MD5kmEBU0ceGlSd_hRQpdz9Q0U/sendMessage "HTTP/1.1 200 OK"
+2025-04-06 01:20:32,797 - INFO - HTTP Request: POST https://api.telegram.org/bot8020956192:AAFXZl4p1MD5kmEBU0ceGlSd_hRQpdz9Q0U/sendMessage "HTTP/1.1 200 OK"
+2025-04-06 01:20:32,799 - INFO - \u2705 \u0110ã g\u1eedi thông báo Telegram!
+2025-04-06 01:21:07,089 - INFO - HTTP Request: POST https://api.telegram.org/bot8020956192:AAFXZl4p1MD5kmEBU0ceGlSd_hRQpdz9Q0U/sendMessage "HTTP/1.1 200 OK"
+2025-04-06 01:21:07,536 - INFO - HTTP Request: POST https://api.telegram.org/bot8020956192:AAFXZl4p1MD5kmEBU0ceGlSd_hRQpdz9Q0U/sendMessage "HTTP/1.1 200 OK"
+2025-04-06 01:21:07,536 - INFO - \u2705 \u0110ã g\u1eedi thông báo Telegram!
+2025-04-06 01:21:25,092 - INFO - HTTP Request: POST https://api.telegram.org/bot8020956192:AAFXZl4p1MD5kmEBU0ceGlSd_hRQpdz9Q0U/sendMessage "HTTP/1.1 200 OK"
+2025-04-06 01:21:25,552 - INFO - HTTP Request: POST https://api.telegram.org/bot8020956192:AAFXZl4p1MD5kmEBU0ceGlSd_hRQpdz9Q0U/sendMessage "HTTP/1.1 200 OK"
+2025-04-06 01:21:25,556 - INFO - \u2705 \u0110ã g\u1eedi thông báo Telegram!
+2025-04-06 01:21:43,753 - INFO - HTTP Request: POST https://api.telegram.org/bot8020956192:AAFXZl4p1MD5kmEBU0ceGlSd_hRQpdz9Q0U/sendMessage "HTTP/1.1 200 OK"
+2025-04-06 01:21:44,361 - INFO - HTTP Request: POST https://api.telegram.org/bot8020956192:AAFXZl4p1MD5kmEBU0ceGlSd_hRQpdz9Q0U/sendMessage "HTTP/1.1 200 OK"
+2025-04-06 01:21:44,362 - INFO - \u2705 \u0110ã g\u1eedi thông báo Telegram!
+2025-04-06 01:22:01,931 - INFO - HTTP Request: POST https://api.telegram.org/bot8020956192:AAFXZl4p1MD5kmEBU0ceGlSd_hRQpdz9Q0U/sendMessage "HTTP/1.1 200 OK"
+2025-04-06 01:22:02,376 - INFO - HTTP Request: POST https://api.telegram.org/bot8020956192:AAFXZl4p1MD5kmEBU0ceGlSd_hRQpdz9Q0U/sendMessage "HTTP/1.1 200 OK"
+2025-04-06 01:22:02,378 - INFO - \u2705 \u0110ã g\u1eedi thông báo Telegram!
+2025-04-06 01:22:19,899 - INFO - HTTP Request: POST https://api.telegram.org/bot8020956192:AAFXZl4p1MD5kmEBU0ceGlSd_hRQpdz9Q0U/sendMessage "HTTP/1.1 200 OK"
+2025-04-06 01:22:20,458 - INFO - HTTP Request: POST https://api.telegram.org/bot8020956192:AAFXZl4p1MD5kmEBU0ceGlSd_hRQpdz9Q0U/sendMessage "HTTP/1.1 200 OK"
+2025-04-06 01:22:20,458 - INFO - \u2705 \u0110ã g\u1eedi thông báo Telegram!
+2025-04-06 01:22:37,944 - INFO - HTTP Request: POST https://api.telegram.org/bot8020956192:AAFXZl4p1MD5kmEBU0ceGlSd_hRQpdz9Q0U/sendMessage "HTTP/1.1 200 OK"
+2025-04-06 01:22:38,441 - INFO - HTTP Request: POST https://api.telegram.org/bot8020956192:AAFXZl4p1MD5kmEBU0ceGlSd_hRQpdz9Q0U/sendMessage "HTTP/1.1 200 OK"
+2025-04-06 01:22:38,442 - INFO - \u2705 \u0110ã g\u1eedi thông báo Telegram!
+2025-04-06 01:22:55,938 - INFO - HTTP Request: POST https://api.telegram.org/bot8020956192:AAFXZl4p1MD5kmEBU0ceGlSd_hRQpdz9Q0U/sendMessage "HTTP/1.1 200 OK"
+2025-04-06 01:22:56,409 - INFO - HTTP Request: POST https://api.telegram.org/bot8020956192:AAFXZl4p1MD5kmEBU0ceGlSd_hRQpdz9Q0U/sendMessage "HTTP/1.1 200 OK"
+2025-04-06 01:22:56,409 - INFO - \u2705 \u0110ã g\u1eedi thông báo Telegram!

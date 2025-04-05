@@ -26,17 +26,13 @@ collection = db["company-image"]
 bot = Bot(token="8020956192:AAFXZl4p1MD5kmEBU0ceGlSd_hRQpdz9Q0U")
 
 options = Options()
-options.add_argument('--headless')  # Chạy không có giao diện người dùng
-options.add_argument('--no-sandbox')  # Chạy không sandbox
-options.add_argument('--disable-dev-shm-usage')  # Giảm bớt sử dụng bộ nhớ chia sẻ
-options.add_argument('--remote-debugging-port=9222')  # Cho phép kết nối debug
-options.add_argument('--disable-gpu')  # Vô hiệu hoá GPU
-options.add_argument('--disable-software-rasterizer')  # Vô hiệu hoá phần mềm xử lý đồ họa
+options.add_argument("--headless")  # Chạy không giao diện người dùng
+options.add_argument("--no-sandbox")  # Chạy không sandbox
+options.add_argument("--disable-dev-shm-usage")  # Khắc phục lỗi thiếu bộ nhớ
+options.add_argument("--disable-gpu")  # Tắt GPU nếu không cần thiết
 
-# Sử dụng Service để chỉ định đường dẫn đến ChromeDriver
+# Khởi tạo ChromeDriver với các tùy chọn trên
 service = Service(ChromeDriverManager().install())
-
-# Khởi tạo WebDriver với các tuỳ chọn đã cấu hình
 driver = webdriver.Chrome(service=service, options=options)
 
 def get_logo_urls():
@@ -59,8 +55,7 @@ def get_logo_urls():
 async def check_new_logos():
     """Kiểm tra logo mới và gửi thông báo Telegram"""
     new_logos = []
-    current_logos = get_logo_urls()# Lấy các logo hiện tại
-    script = """"""
+    current_logos = get_logo_urls()  # Lấy các logo hiện tại
     for logo in current_logos:
         if collection.find_one({"url": logo}) is None:
             new_logos.append(logo)
@@ -79,11 +74,14 @@ async def check_new_logos():
         logging.info("✅ Đã gửi thông báo Telegram!")
 
 def run_async_job():
-    """Bọc hàm async thành đồng bộ"""
-    asyncio.run(check_new_logos())
+    """Bọc hàm async thành đồng bộ và chạy trong event loop hiện tại"""
+    loop = asyncio.new_event_loop()  # Tạo event loop mới
+    asyncio.set_event_loop(loop)  # Thiết lập event loop mới
+    task = loop.create_task(check_new_logos())  # Tạo task async
+    loop.run_until_complete(task)  # Chạy task cho đến khi hoàn thành
 
-# Lên lịch công việc mỗi 1 giây
-schedule.every(1).minutes.do(run_async_job)
+# Lên lịch công việc mỗi 15 giây
+schedule.every(15).seconds.do(run_async_job)
 
 # Vòng lặp kiểm tra và thực thi công việc
 while True:
