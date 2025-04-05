@@ -1,0 +1,4 @@
+selenium
+pymongo
+schedule
+telegram
