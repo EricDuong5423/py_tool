@@ -24,8 +24,15 @@ collection = db["company-image"]
 bot = Bot(token="8020956192:AAFXZl4p1MD5kmEBU0ceGlSd_hRQpdz9Q0U")
 
 options = Options()
-options.add_argument('--headless')  # chạy ngầm, không mở trình duyệt
-driver = webdriver.Chrome(options=options)
+options.add_argument('--headless')  # Chạy không có giao diện người dùng
+options.add_argument('--no-sandbox')  # Chạy không sandbox
+options.add_argument('--disable-dev-shm-usage')  # Giảm bớt sử dụng bộ nhớ chia sẻ
+options.add_argument('--remote-debugging-port=9222')  # Cho phép kết nối debug
+options.add_argument('--disable-gpu')  # Vô hiệu hoá GPU
+options.add_argument('--disable-software-rasterizer')  # Vô hiệu hoá phần mềm xử lý đồ họa
+
+# Khởi tạo WebDriver với các tuỳ chọn đã cấu hình
+driver = webdriver.Chrome(executable_path='/path/to/chromedriver', options=options)
 
 def get_logo_urls():
     """Lấy danh sách URL logo từ trang web"""
