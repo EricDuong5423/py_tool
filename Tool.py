@@ -7,6 +7,8 @@ from selenium.webdriver.chrome.options import Options
 from pymongo import MongoClient
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.support import expected_conditions as EC
 from telegram import Bot
 
@@ -31,8 +33,11 @@ options.add_argument('--remote-debugging-port=9222')  # Cho phép kết nối de
 options.add_argument('--disable-gpu')  # Vô hiệu hoá GPU
 options.add_argument('--disable-software-rasterizer')  # Vô hiệu hoá phần mềm xử lý đồ họa
 
+# Sử dụng Service để chỉ định đường dẫn đến ChromeDriver
+service = Service(ChromeDriverManager().install())
+
 # Khởi tạo WebDriver với các tuỳ chọn đã cấu hình
-driver = webdriver.Chrome(executable_path='/path/to/chromedriver', options=options)
+driver = webdriver.Chrome(service=service, options=options)
 
 def get_logo_urls():
     """Lấy danh sách URL logo từ trang web"""

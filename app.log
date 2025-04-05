@@ -76,3 +76,18 @@
 2025-04-05 23:47:44,323 - INFO - HTTP Request: POST https://api.telegram.org/bot8020956192:AAFXZl4p1MD5kmEBU0ceGlSd_hRQpdz9Q0U/sendMessage "HTTP/1.1 200 OK"
 2025-04-05 23:47:44,794 - INFO - HTTP Request: POST https://api.telegram.org/bot8020956192:AAFXZl4p1MD5kmEBU0ceGlSd_hRQpdz9Q0U/sendMessage "HTTP/1.1 200 OK"
 2025-04-05 23:47:44,796 - INFO - \u2705 \u0110ã g\u1eedi thông báo Telegram!
+2025-04-06 00:47:17,962 - INFO - ====== WebDriver manager ======
+2025-04-06 00:47:19,612 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-06 00:47:19,812 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-06 00:47:19,988 - INFO - There is no [win64] chromedriver "134.0.6998.165" for browser google-chrome "134.0.6998" in cache
+2025-04-06 00:47:19,988 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-06 00:47:20,422 - INFO - WebDriver version 134.0.6998.165 selected
+2025-04-06 00:47:20,424 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/134.0.6998.165/win32/chromedriver-win32.zip
+2025-04-06 00:47:20,424 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/134.0.6998.165/win32/chromedriver-win32.zip
+2025-04-06 00:47:20,728 - INFO - Driver downloading response is 200
+2025-04-06 00:47:21,602 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-06 00:47:21,907 - INFO - Driver has been saved in cache [C:\Users\mucin\.wdm\drivers\chromedriver\win64\134.0.6998.165]
+2025-04-06 00:48:23,490 - INFO - ====== WebDriver manager ======
+2025-04-06 00:48:24,392 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-06 00:48:24,562 - INFO - Get LATEST chromedriver version for google-chrome
+2025-04-06 00:48:24,720 - INFO - Driver [C:\Users\mucin\.wdm\drivers\chromedriver\win64\134.0.6998.165\chromedriver-win32/chromedriver.exe] found in cache
