@@ -37,20 +37,33 @@ driver = webdriver.Chrome(service=service, options=options)
 
 def get_logo_urls():
     """Lấy danh sách URL logo từ trang web"""
-    driver.get("https://internship.cse.hcmut.edu.vn/")  # Thay bằng URL trang web
-    WebDriverWait(driver, 10).until(
-        EC.presence_of_element_located((By.CSS_SELECTOR, "[style*='background-image']"))
-    )
-    logos = driver.find_elements(By.CSS_SELECTOR, "[style*='background-image']")
-    urls = []
-    for logo in logos:
-        style = logo.get_attribute("style")
-        start = style.find('url("') + 5
-        end = style.find('")', start)
-        img_url = "https://internship.cse.hcmut.edu.vn"+style[start:end]
-        urls.append(img_url)
+    options = Options()
+    options.add_argument("--headless")
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--disable-gpu")
+    
+    service = Service(ChromeDriverManager().install())
+    driver = webdriver.Chrome(service=service, options=options)
 
-    return urls
+    try:
+        driver.get("https://internship.cse.hcmut.edu.vn/")
+        WebDriverWait(driver, 10).until(
+            EC.presence_of_element_located((By.CSS_SELECTOR, "[style*='background-image']"))
+        )
+        logos = driver.find_elements(By.CSS_SELECTOR, "[style*='background-image']")
+        urls = []
+        for logo in logos:
+            style = logo.get_attribute("style")
+            start = style.find('url("') + 5
+            end = style.find('")', start)
+            img_url = "https://internship.cse.hcmut.edu.vn" + style[start:end]
+            urls.append(img_url)
+
+        return urls
+    finally:
+        driver.quit()  # Đóng trình duyệt dù có lỗi hay không
+
 
 async def check_new_logos():
     """Kiểm tra logo mới và gửi thông báo Telegram"""
