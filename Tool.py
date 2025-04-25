@@ -19,7 +19,7 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 
-chat_id = "-4774579999"
+chat_id = "-4630038358"
 client = MongoClient('mongodb://foo:bar@103.140.249.159:27017/')
 db = client["intern-tool"]
 collection = db["company-image"]
